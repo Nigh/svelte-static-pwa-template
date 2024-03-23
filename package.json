@@ -16,6 +16,7 @@
 		"@types/eslint": "^8.56.0",
 		"@vite-pwa/sveltekit": "^0.4.0",
 		"autoprefixer": "^10.4.19",
+		"daisyui": "^4.7.3",
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.35.1",
