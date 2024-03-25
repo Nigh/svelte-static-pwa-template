@@ -1,11 +1,13 @@
 <div class="navbar bg-base-100">
 	<div class="navbar-start">
-		<button class="btn btn-outline btn-info"><a href="./">Home</a></button>
+		<a href="./"><button class="btn btn-outline btn-info">Home</button></a>
 	</div>
 	<div class="navbar-center">
 		<p class="btn btn-ghost text-xl">Svelte PWA Template</p>
 	</div>
 	<div class="navbar-end">
-		<button class="btn btn-outline btn-warning"><a href="./page">Page</a></button>
+		<a href="https://github.com/Nigh/svelte-static-pwa-template"
+			><button class="btn btn-outline btn-warning">GitHub</button></a
+		>
 	</div>
 </div>
