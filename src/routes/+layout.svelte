@@ -1,8 +1,7 @@
 <script>
 	import '../app.css';
+	import Nav from './nav.svelte';
 </script>
 
-<a href="./">Home</a>
-<a href="./page">Page</a>
-
+<Nav />
 <slot />
