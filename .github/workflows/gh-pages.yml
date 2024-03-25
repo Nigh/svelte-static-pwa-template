@@ -19,5 +19,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          nojekyll: true
           branch: gh-pages
           folder: build
