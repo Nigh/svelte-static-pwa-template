@@ -21,3 +21,6 @@ jobs:
         with:
           branch: gh-pages
           folder: build
+          clean: true
+          clean-exclude: .nojekyll
+          single-commit: true
