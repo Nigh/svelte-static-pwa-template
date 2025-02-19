@@ -13,3 +13,10 @@
 1. `yarn install`
 2. `yarn dev`
 3. `yarn build`
+
+## Update
+
+```
+npx update-browserslist-db@latest
+yarn upgrade-interactive --latest
+```
