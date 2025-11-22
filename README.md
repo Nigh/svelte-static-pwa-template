@@ -8,6 +8,8 @@
 <img alt="Svelte" src="https://img.shields.io/badge/pwa-5A0FC8.svg?style=for-the-badge&logo=pwa&logoColor=white">
 </p>
 
+<img width="482" height="559" alt="image" src="https://github.com/user-attachments/assets/ca053f05-531a-40ab-a73b-685a0f97d8a4" />
+
 ## Usage
 
 1. `yarn install`
