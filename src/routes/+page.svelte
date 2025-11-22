@@ -16,11 +16,11 @@
 <div class="grid justify-items-center w-screen text-center">
 	<h1 class="text-2xl">Click Me</h1>
 	<button
-		class="btn h-full border-0 bg-transparent hover:bg-transparent"
+		class="cursor-pointer h-full mask mask-hexagon hover:scale-120"
 		on:click={() => count.update((n) => n + 1)}
 	>
 		<div class="avatar justify-center">
-			<div class="w-24 mask mask-hexagon">
+			<div class="w-24 mask mask-hexagon ">
 				<img alt="avatar" src="favicon.png" />
 			</div>
 		</div>
