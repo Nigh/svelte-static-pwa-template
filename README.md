@@ -12,13 +12,11 @@
 
 ## Usage
 
-1. `yarn install`
-2. `yarn dev`
-3. `yarn build`
+Requires Node.js 22.13+ and Corepack.
 
-## Update
+1. `corepack enable`
+2. `yarn install --immutable`
+3. `yarn dev`
+4. `yarn lint && yarn build`
 
-```
-npx update-browserslist-db@latest
-yarn upgrade-interactive --latest
-```
+For GitHub Pages, build with `BASE_PATH=/svelte-static-pwa-template yarn build`; the deployment workflow sets this automatically.
