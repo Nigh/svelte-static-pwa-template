@@ -1,18 +1,27 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 import { SvelteKitPWA } from '@vite-pwa/sveltekit';
+import tailwindcss from '@tailwindcss/vite';
+
+const base = globalThis.process.env.BASE_PATH || '';
 
 export default defineConfig({
 	plugins: [
+		tailwindcss(),
 		sveltekit(),
 		SvelteKitPWA({
 			registerType: 'autoUpdate',
+			// Static builds use relative Vite paths; Workbox needs the deployed URL base.
+			kit: { base: `${base}/` },
+			workbox: {
+				navigateFallback: `${base}/`
+			},
 			manifest: {
 				name: 'Svelte PWA Template',
 				short_name: 'SPWAT',
 				description: 'a svelte pwa app template',
-				scope: '.',
-				start_url: './',
+				scope: `${base}/`,
+				start_url: `${base}/`,
 				background_color: '#000000',
 				theme_color: '#5ac6e6',
 				display: 'fullscreen',
